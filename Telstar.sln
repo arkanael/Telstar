@@ -22,6 +22,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telstar.Domain", "Telstar.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telstar.Domain.Test", "Telstar.Domain.Test\Telstar.Domain.Test.csproj", "{26992760-0262-444D-A808-FB3A0745F20B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telstar.Infra.Data", "Telstar.Infra.Data\Telstar.Infra.Data.csproj", "{28763FA5-850C-49BD-9F29-F2034D601EC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{26992760-0262-444D-A808-FB3A0745F20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26992760-0262-444D-A808-FB3A0745F20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26992760-0262-444D-A808-FB3A0745F20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28763FA5-850C-49BD-9F29-F2034D601EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28763FA5-850C-49BD-9F29-F2034D601EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28763FA5-850C-49BD-9F29-F2034D601EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28763FA5-850C-49BD-9F29-F2034D601EC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{45D90874-13DE-4E50-ADA8-37DE6AF87809} = {F5C5757A-B6E3-4AB2-83AF-A8A1D5F63109}
 		{26992760-0262-444D-A808-FB3A0745F20B} = {EAD0F666-6CD6-4E40-AA07-18ED886E3C21}
+		{28763FA5-850C-49BD-9F29-F2034D601EC3} = {8B3F6282-2C59-42A3-B03B-408AACA07BEB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BAEF0F2A-1308-441A-AF27-D6699364AD88}

@@ -6,7 +6,13 @@ using System.Threading.Tasks;
 
 namespace Telstar.Domain.Entities
 {
-    class Cliente
+    public class Cliente
     {
+        public virtual int IdCliente { get; set; }
+        public virtual string Nome { get; set; }
+        public virtual string Email { get; set; }
+        public virtual DateTime DataNascimento { get; set; }
+
+        public virtual Endereco Endereco { get; set; }
     }
 }

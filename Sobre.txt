@@ -1,0 +1,39 @@
+WORKSHOP
+Arquitetura de Aplicações
+.NET com DDD, TDD e BDD
+Documentação das Aulas.
+
+Introdução ao DDD - Domain Driven Design
+A principal ideia do DDD (Domain Driven Design) é a de que o mais
+importante em um software não é o seu código, nem sua arquitetura, nem
+a tecnologia sobre a qual foi desenvolvido, mas sim o problema que o
+mesmo se propõe a resolver, ou em outras palavras, a regra de negócio.
+Ela é a razão do software existir, por isso deve receber o máximo de tempo
+e atenção possíveis.
+Em praticamente todos os projetos de software, a complexidade não está
+localizada nos aspectos técnicos, mas sim no negócio, na atividade que é
+exercida pelo cliente ou problema que o mesmo possui.
+Modelo de arquitetura baseada em DDD:
+
+Uma vez que decidimos criar um modelo usando MDD, precisamos,
+inicialmente, isolar o modelo de domínio das demais partes que compõem o
+sistema.
+Essa separação pode ser feita utilizando-se uma arquitetura em camadas,
+que dividirá nossa aplicação em quatro partes
+
+• Interface de Usuário – parte responsável pela exibição de
+informações do sistema ao usuário e também por interpretar
+comandos do usuário;
+• Aplicação – essa camada não possui lógica de negócio. Ela é apenas
+uma camada fina, responsável por conectar a Interface de Usuário às
+camadas inferiores;
+• Domínio – representa os conceitos, regras e lógicas de negócio.
+Todo o foco de DDD está nessa camada. Nosso trabalho, daqui para
+frente, será aperfeiçoar e compreender profundamente essa parte;
+• Infra-estrutura – fornece recursos técnicos que darão suporte às
+camadas superiores. São normalmente as partes de um sistema
+responsáveis por persistência de dados, conexões com bancos de
+dados, envio de mensagens por redes, gravação e leitura de discos,
+etc.
+
+
